@@ -9,6 +9,43 @@ import { navItems } from "@/lib/content";
 import { cn } from "@/lib/utils";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 
+const gitCloneXUrl = "https://x.com/Gitclone_fun";
+
+function SocialXLink({
+  className,
+  label = "Follow GitClone on X",
+  showText = false
+}: {
+  className?: string;
+  label?: string;
+  showText?: boolean;
+}) {
+  return (
+    <Link
+      href={gitCloneXUrl}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={label}
+      title={label}
+      className={cn(
+        "inline-flex h-11 shrink-0 items-center justify-center rounded-full border border-cyan-glow/25 bg-white/[0.045] text-white shadow-[0_0_24px_rgba(34,211,238,0.12)] transition duration-300 hover:scale-[1.04] hover:border-cyan-glow/70 hover:bg-cyan-glow/10 hover:shadow-[0_0_34px_rgba(34,211,238,0.24)] focus:outline-none focus:ring-2 focus:ring-cyan-glow/70 focus:ring-offset-2 focus:ring-offset-background",
+        showText ? "w-full gap-2 px-5 text-sm font-semibold" : "w-11",
+        className
+      )}
+    >
+      <Image
+        src="/icons/social-x.svg"
+        alt=""
+        width={18}
+        height={18}
+        aria-hidden="true"
+        className="h-[18px] w-[18px]"
+      />
+      {showText ? <span className="truncate">X / GitClone_fun</span> : null}
+    </Link>
+  );
+}
+
 export function Navbar() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
@@ -84,6 +121,7 @@ export function Navbar() {
               <ButtonLink href="/dashboard" variant="ghost">
                 {userName}
               </ButtonLink>
+              <SocialXLink />
               <button
                 type="button"
                 onClick={signOut}
@@ -97,6 +135,7 @@ export function Navbar() {
               <ButtonLink href="/login" variant="ghost">
                 Sign In
               </ButtonLink>
+              <SocialXLink />
               <ButtonLink href="/register">
                 {authLoaded ? "Start Building" : "Start Building"}
               </ButtonLink>
@@ -160,6 +199,10 @@ export function Navbar() {
                     <ButtonLink href="/dashboard" variant="secondary" className="w-full">
                       Dashboard
                     </ButtonLink>
+                    <SocialXLink
+                      label="Follow GitClone on X"
+                      showText
+                    />
                     <button
                       type="button"
                       onClick={signOut}
@@ -173,6 +216,10 @@ export function Navbar() {
                     <ButtonLink href="/login" variant="secondary" className="w-full">
                       Sign In
                     </ButtonLink>
+                    <SocialXLink
+                      label="Follow GitClone on X"
+                      showText
+                    />
                     <ButtonLink href="/register" className="w-full">
                       Start Building
                     </ButtonLink>
