@@ -187,6 +187,8 @@ npm run build
 
 ## Safe GitHub Upload
 
+Keep the source repository private unless the project owner explicitly decides otherwise. Public visitors should only see the deployed website and any tutorial content you choose to share; secrets, runtime data, deployment settings, and internal source history should stay restricted to approved collaborators.
+
 These files should be uploaded:
 
 - Application source: `app/`, `components/`, `hooks/`, `lib/`, `styles/`, `types/`

@@ -10,19 +10,26 @@ import { cn } from "@/lib/utils";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 
 const gitCloneXUrl = "https://x.com/Gitclone_fun";
+const gitCloneGitHubUrl = "https://github.com/gitclone77-beep/gitclone";
 
-function SocialXLink({
+function SocialLink({
   className,
-  label = "Follow GitClone on X",
-  showText = false
+  href,
+  icon,
+  label,
+  showText = false,
+  text
 }: {
   className?: string;
+  href: string;
+  icon: string;
   label?: string;
   showText?: boolean;
+  text: string;
 }) {
   return (
     <Link
-      href={gitCloneXUrl}
+      href={href}
       target="_blank"
       rel="noreferrer"
       aria-label={label}
@@ -34,15 +41,39 @@ function SocialXLink({
       )}
     >
       <Image
-        src="/icons/social-x.svg"
+        src={icon}
         alt=""
         width={18}
         height={18}
         aria-hidden="true"
         className="h-[18px] w-[18px]"
       />
-      {showText ? <span className="truncate">X / GitClone_fun</span> : null}
+      {showText ? <span className="truncate">{text}</span> : null}
     </Link>
+  );
+}
+
+function SocialXLink({ showText = false }: { showText?: boolean }) {
+  return (
+    <SocialLink
+      href={gitCloneXUrl}
+      icon="/icons/social-x.svg"
+      label="Follow GitClone on X"
+      showText={showText}
+      text="X / GitClone_fun"
+    />
+  );
+}
+
+function SocialGitHubLink({ showText = false }: { showText?: boolean }) {
+  return (
+    <SocialLink
+      href={gitCloneGitHubUrl}
+      icon="/icons/social-github.svg"
+      label="Open GitClone repository on GitHub"
+      showText={showText}
+      text="GitHub / gitclone77-beep"
+    />
   );
 }
 
@@ -122,6 +153,7 @@ export function Navbar() {
                 {userName}
               </ButtonLink>
               <SocialXLink />
+              <SocialGitHubLink />
               <button
                 type="button"
                 onClick={signOut}
@@ -136,6 +168,7 @@ export function Navbar() {
                 Sign In
               </ButtonLink>
               <SocialXLink />
+              <SocialGitHubLink />
               <ButtonLink href="/register">
                 {authLoaded ? "Start Building" : "Start Building"}
               </ButtonLink>
@@ -200,9 +233,9 @@ export function Navbar() {
                       Dashboard
                     </ButtonLink>
                     <SocialXLink
-                      label="Follow GitClone on X"
                       showText
                     />
+                    <SocialGitHubLink showText />
                     <button
                       type="button"
                       onClick={signOut}
@@ -217,9 +250,9 @@ export function Navbar() {
                       Sign In
                     </ButtonLink>
                     <SocialXLink
-                      label="Follow GitClone on X"
                       showText
                     />
+                    <SocialGitHubLink showText />
                     <ButtonLink href="/register" className="w-full">
                       Start Building
                     </ButtonLink>
