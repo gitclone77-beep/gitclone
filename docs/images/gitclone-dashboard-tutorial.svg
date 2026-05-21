@@ -1,0 +1,41 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#020617"/>
+  <circle cx="1030" cy="90" r="280" fill="#22D3EE" fill-opacity="0.11"/>
+  <circle cx="170" cy="610" r="300" fill="#2F7DF6" fill-opacity="0.13"/>
+  <text x="78" y="98" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="750">Dashboard Tutorial</text>
+  <text x="80" y="132" fill="#8BB8C7" font-family="Inter, Arial, sans-serif" font-size="18">Create a repository, persist it in the API, then verify it appears in the dashboard.</text>
+
+  <rect x="76" y="180" width="1048" height="460" rx="30" fill="#06111F" stroke="#22D3EE" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g transform="translate(118 230)">
+    <rect width="290" height="340" rx="24" fill="#071C31" stroke="#5AA7FF" stroke-opacity="0.42"/>
+    <text x="26" y="48" fill="#22D3EE" font-family="Consolas, monospace" font-size="15">STEP 1</text>
+    <text x="26" y="82" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Open Dashboard</text>
+    <text x="26" y="120" fill="#8BB8C7" font-family="Inter, Arial, sans-serif" font-size="16">Use the Start Building button or visit /dashboard.</text>
+    <rect x="26" y="168" width="238" height="96" rx="16" fill="#020617" stroke="#22D3EE" stroke-opacity="0.24"/>
+    <text x="46" y="203" fill="#ECFEFF" font-family="Consolas, monospace" font-size="16">/dashboard</text>
+    <text x="46" y="235" fill="#5EEAD4" font-family="Inter, Arial, sans-serif" font-size="15">API Connected</text>
+  </g>
+
+  <g transform="translate(455 230)">
+    <rect width="290" height="340" rx="24" fill="#071C31" stroke="#22D3EE" stroke-opacity="0.42"/>
+    <text x="26" y="48" fill="#22D3EE" font-family="Consolas, monospace" font-size="15">STEP 2</text>
+    <text x="26" y="82" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Create Repository</text>
+    <text x="26" y="120" fill="#8BB8C7" font-family="Inter, Arial, sans-serif" font-size="16">Fill name, owner, category, language, visibility, and description.</text>
+    <rect x="26" y="166" width="238" height="40" rx="12" fill="#020617" stroke="#22D3EE" stroke-opacity="0.24"/>
+    <rect x="26" y="218" width="238" height="40" rx="12" fill="#020617" stroke="#22D3EE" stroke-opacity="0.24"/>
+    <rect x="26" y="278" width="176" height="42" rx="21" fill="#22D3EE"/>
+    <text x="55" y="304" fill="#020617" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Create Repository</text>
+  </g>
+
+  <g transform="translate(792 230)">
+    <rect width="290" height="340" rx="24" fill="#071C31" stroke="#5EEAD4" stroke-opacity="0.42"/>
+    <text x="26" y="48" fill="#22D3EE" font-family="Consolas, monospace" font-size="15">STEP 3</text>
+    <text x="26" y="82" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Verify Saved Data</text>
+    <text x="26" y="120" fill="#8BB8C7" font-family="Inter, Arial, sans-serif" font-size="16">The dashboard refreshes and shows the new repository from the API.</text>
+    <rect x="26" y="166" width="238" height="118" rx="16" fill="#020617" stroke="#22D3EE" stroke-opacity="0.24"/>
+    <text x="46" y="202" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">owner/repository</text>
+    <text x="46" y="232" fill="#8BB8C7" font-family="Inter, Arial, sans-serif" font-size="14">Language, branch, storage</text>
+    <text x="46" y="262" fill="#5EEAD4" font-family="Consolas, monospace" font-size="14">Persisted</text>
+  </g>
+</svg>

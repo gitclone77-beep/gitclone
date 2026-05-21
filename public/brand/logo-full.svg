@@ -1,0 +1,44 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="260" rx="52" fill="transparent"/>
+  <g filter="url(#full-glow)">
+    <rect x="48" y="42" width="176" height="176" rx="48" fill="#020617"/>
+    <rect x="58" y="52" width="156" height="156" rx="42" fill="url(#full-bg)" stroke="url(#full-frame)" stroke-width="3"/>
+    <path d="M136 74L190 105V167L136 198L82 167V105L136 74Z" fill="#06111F" stroke="url(#full-stroke)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M84 106L136 136L188 106" stroke="url(#full-stroke)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M136 136V197" stroke="url(#full-stroke)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M105 152L136 170L167 152" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="84" cy="106" r="11" fill="#020617" stroke="#22D3EE" stroke-width="5"/>
+    <circle cx="188" cy="106" r="11" fill="#020617" stroke="#5AA7FF" stroke-width="5"/>
+    <circle cx="136" cy="197" r="11" fill="#020617" stroke="#5EEAD4" stroke-width="5"/>
+    <circle cx="136" cy="136" r="9" fill="#22D3EE"/>
+  </g>
+  <text x="254" y="126" fill="white" font-family="Geist, Inter, Arial, sans-serif" font-size="72" font-weight="750" letter-spacing="0">GitClone</text>
+  <text x="258" y="166" fill="#8BB8C7" font-family="Geist Mono, Consolas, monospace" font-size="18" font-weight="500" letter-spacing="0">BUILD CLONE SHIP</text>
+  <path d="M254 190H668" stroke="url(#full-rule)" stroke-width="2" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="full-bg" x1="66" y1="58" x2="210" y2="204" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2444"/>
+      <stop offset="0.58" stop-color="#06111F"/>
+      <stop offset="1" stop-color="#071C31"/>
+    </linearGradient>
+    <linearGradient id="full-frame" x1="58" y1="52" x2="214" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.56" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="full-stroke" x1="82" y1="74" x2="190" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.58" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="full-rule" x1="254" y1="190" x2="668" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#2F7DF6"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="full-glow" x="20" y="14" width="232" height="232" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#22D3EE" flood-opacity="0.32"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="30" flood-color="#2F7DF6" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+</svg>

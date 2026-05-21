@@ -1,0 +1,20 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="56" fill="#020617"/>
+  <rect x="29" y="35" width="198" height="186" rx="36" fill="url(#branch-bg)" stroke="#22D3EE" stroke-opacity="0.28" stroke-width="3"/>
+  <path d="M76 73V142C76 169 98 191 125 191H174" stroke="url(#branch-stroke)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M174 89H139C104 89 76 117 76 152" stroke="url(#branch-stroke)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="76" cy="69" r="20" fill="#020617" stroke="#22D3EE" stroke-width="8"/>
+  <circle cx="176" cy="89" r="20" fill="#020617" stroke="#5AA7FF" stroke-width="8"/>
+  <circle cx="180" cy="191" r="20" fill="#020617" stroke="#5EEAD4" stroke-width="8"/>
+  <defs>
+    <linearGradient id="branch-bg" x1="39" y1="38" x2="223" y2="219" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2444"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="branch-stroke" x1="76" y1="69" x2="180" y2="191" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#020617"/>
+  <circle cx="1050" cy="70" r="300" fill="#22D3EE" fill-opacity="0.15"/>
+  <circle cx="150" cy="540" r="280" fill="#2F7DF6" fill-opacity="0.18"/>
+  <path d="M0 460C160 410 280 440 420 490C580 548 720 534 900 450C1035 387 1115 368 1200 390V630H0V460Z" fill="#06111F"/>
+  <rect x="94" y="90" width="1012" height="450" rx="52" fill="rgba(6,17,31,0.76)" stroke="#22D3EE" stroke-opacity="0.24" stroke-width="3"/>
+  <g transform="translate(142 160)">
+    <rect x="0" y="0" width="148" height="148" rx="40" fill="#020617" stroke="#22D3EE" stroke-opacity="0.24" stroke-width="3"/>
+    <path d="M74 25L119 51V103L74 129L29 103V51L74 25Z" fill="#06111F" stroke="url(#og-stroke)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M31 52L74 77L117 52M74 77V128" stroke="url(#og-stroke)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="74" cy="77" r="10" fill="#22D3EE"/>
+  </g>
+  <text x="330" y="228" fill="white" font-family="Geist, Inter, Arial, sans-serif" font-size="82" font-weight="750">GitClone</text>
+  <text x="334" y="296" fill="#8BB8C7" font-family="Geist, Inter, Arial, sans-serif" font-size="34" font-weight="500">Build, Clone, Ship Faster</text>
+  <text x="334" y="360" fill="#22D3EE" font-family="Geist Mono, Consolas, monospace" font-size="22" letter-spacing="0">REPOSITORIES COLLABORATION DEPLOYMENTS</text>
+  <defs>
+    <linearGradient id="og-stroke" x1="29" y1="25" x2="119" y2="129" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.55" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+  </defs>
+</svg>

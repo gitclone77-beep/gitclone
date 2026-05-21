@@ -1,0 +1,19 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="56" fill="#020617"/>
+  <rect x="29" y="35" width="198" height="186" rx="36" fill="url(#commit-bg)" stroke="#22D3EE" stroke-opacity="0.28" stroke-width="3"/>
+  <path d="M42 128H88M168 128H214" stroke="url(#commit-stroke)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="128" cy="128" r="42" fill="#06111F" stroke="url(#commit-stroke)" stroke-width="10"/>
+  <circle cx="128" cy="128" r="14" fill="#22D3EE"/>
+  <circle cx="128" cy="128" r="64" stroke="#22D3EE" stroke-opacity="0.18" stroke-width="3"/>
+  <defs>
+    <linearGradient id="commit-bg" x1="39" y1="38" x2="223" y2="219" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2444"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="commit-stroke" x1="42" y1="86" x2="214" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+  </defs>
+</svg>

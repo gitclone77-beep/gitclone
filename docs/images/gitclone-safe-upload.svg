@@ -1,0 +1,25 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="560" rx="36" fill="#020617"/>
+  <circle cx="1020" cy="80" r="250" fill="#22D3EE" fill-opacity="0.1"/>
+  <circle cx="140" cy="490" r="250" fill="#2F7DF6" fill-opacity="0.14"/>
+  <text x="80" y="96" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="750">Safe GitHub Upload Scope</text>
+  <text x="82" y="130" fill="#8BB8C7" font-family="Inter, Arial, sans-serif" font-size="18">Commit source code and documentation only. Runtime data, secrets, dependencies, and builds stay local or on the server.</text>
+
+  <g transform="translate(90 200)">
+    <rect width="470" height="250" rx="28" fill="#071C31" stroke="#5EEAD4" stroke-opacity="0.45"/>
+    <text x="34" y="52" fill="#5EEAD4" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Uploaded</text>
+    <text x="34" y="92" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">app/ components/ lib/ types/</text>
+    <text x="34" y="125" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">backend/src/ backend/deploy/</text>
+    <text x="34" y="158" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">public/brand/ docs/images/</text>
+    <text x="34" y="191" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">README.md package-lock.json</text>
+  </g>
+
+  <g transform="translate(640 200)">
+    <rect width="470" height="250" rx="28" fill="#071C31" stroke="#FB7185" stroke-opacity="0.45"/>
+    <text x="34" y="52" fill="#FB7185" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Ignored</text>
+    <text x="34" y="92" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">.env and local env files</text>
+    <text x="34" y="125" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">.vercel/ node_modules/ .next/</text>
+    <text x="34" y="158" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">backend/data/ backend/dist/</text>
+    <text x="34" y="191" fill="#ECFEFF" font-family="Consolas, monospace" font-size="17">logs, runtime database, API keys</text>
+  </g>
+</svg>

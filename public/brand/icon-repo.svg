@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="56" fill="#020617"/>
+  <rect x="29" y="35" width="198" height="186" rx="36" fill="url(#repo-bg)" stroke="#22D3EE" stroke-opacity="0.28" stroke-width="3"/>
+  <path d="M72 77L128 49L184 77V178L128 207L72 178V77Z" fill="#06111F" stroke="url(#repo-stroke)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M73 79L128 109L183 79M128 109V205M96 144L128 161L160 144" stroke="url(#repo-stroke)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="repo-bg" x1="39" y1="38" x2="223" y2="219" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2444"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="repo-stroke" x1="72" y1="49" x2="184" y2="207" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="#020617"/>
+  <rect x="38" y="38" width="436" height="436" rx="106" fill="url(#symbol-bg)" stroke="url(#symbol-frame)" stroke-width="4"/>
+  <path d="M256 82L398 164V328L256 410L114 328V164L256 82Z" fill="#06111F" stroke="url(#symbol-stroke)" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M256 120L365 184V311L256 374L147 311V184L256 120Z" fill="url(#symbol-core)" stroke="#1D9BFF" stroke-opacity="0.42" stroke-width="3"/>
+  <path d="M151 184L256 246L361 184" stroke="url(#symbol-stroke)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 246V374" stroke="url(#symbol-stroke)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M190 279L256 318L322 279" stroke="#5EEAD4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="151" cy="184" r="24" fill="#020617" stroke="#22D3EE" stroke-width="9"/>
+  <circle cx="361" cy="184" r="24" fill="#020617" stroke="#5AA7FF" stroke-width="9"/>
+  <circle cx="256" cy="374" r="24" fill="#020617" stroke="#5EEAD4" stroke-width="9"/>
+  <circle cx="256" cy="246" r="18" fill="#22D3EE"/>
+  <circle cx="256" cy="246" r="54" stroke="#22D3EE" stroke-opacity="0.25" stroke-width="3"/>
+  <defs>
+    <linearGradient id="symbol-bg" x1="74" y1="46" x2="437" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2444"/>
+      <stop offset="0.45" stop-color="#04101F"/>
+      <stop offset="1" stop-color="#071C31"/>
+    </linearGradient>
+    <linearGradient id="symbol-frame" x1="60" y1="60" x2="451" y2="451" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.55" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="symbol-stroke" x1="114" y1="82" x2="398" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5AA7FF"/>
+      <stop offset="0.58" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <radialGradient id="symbol-core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 247) rotate(90) scale(184 170)">
+      <stop stop-color="#123D68"/>
+      <stop offset="0.62" stop-color="#06111F"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+  </defs>
+</svg>
